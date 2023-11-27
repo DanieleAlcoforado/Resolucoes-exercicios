@@ -1,6 +1,6 @@
 # Consultas realizadas em uma base de dados "Biblioteca", utilizando SQL.
 
-### E1 - Apresente a query para listar todos os livros publicados após 2014. Ordenar pela coluna cod, em ordem crescente, as linhas. Atenção às colunas esperadas no resultado final: cod, titulo, autor, editora, valor, publicacao, edicao, idioma.
+### Query que para lista todos os livros publicados após 2014. Ordenar pela coluna cod, em ordem crescente, as linhas. Colunas esperadas no resultado final: cod, titulo, autor, editora, valor, publicacao, edicao, idioma.
 ```SQL
 SELECT
 	*
@@ -47,7 +47,7 @@ ORDER BY
 |  172   |         Problemas de estética                    |   72  |   1     | 210.01 | 2016-03-21 |   3    | portugues |
 
 
-### E2 - Apresente a query para listar os 10 livros mais caros. Ordenar as linhas pela coluna valor, em ordem decrescente. Atenção às colunas esperadas no resultado final:  titulo, valor.
+### Query que lista os 10 livros mais caros. Ordenar as linhas pela coluna valor, em ordem decrescente. Colunas esperadas no resultado final:  titulo, valor.
 ```SQL
 SELECT
 	titulo,
@@ -72,7 +72,7 @@ LIMIT 10
 | Machinapolis e a caosmologia do ser         | 479.9  |
 
 
-### E3 - Apresente a query para listar as 5 editoras com mais livros na biblioteca. O resultado deve conter apenas as colunas quantidade, nome, estado e cidade. Ordenar as linhas pela coluna que representa a quantidade de livros em ordem decrescente.
+### Query que lista as 5 editoras com mais livros na biblioteca. O resultado deve conter apenas as colunas quantidade, nome, estado e cidade. Ordenar as linhas pela coluna que representa a quantidade de livros em ordem decrescente.
 ```SQL
 SELECT 
 	COUNT(titulo) AS quantidade,
@@ -99,7 +99,7 @@ LIMIT 5
 |     30     | Ática| SÃO PAULO| São Paulo |
 
 
-### E4 - Apresente a query para listar a quantidade de livros publicada por cada autor. Ordenar as linhas pela coluna nome (autor), em ordem crescente. Além desta, apresentar as colunas codautor, nascimento e quantidade (total de livros de sua autoria).
+### Query que lista a quantidade de livros publicada por cada autor. Ordenar as linhas pela coluna nome (autor), em ordem crescente. Além desta, apresentar as colunas codautor, nascimento e quantidade (total de livros de sua autoria).
 ```SQL
 SELECT
 	autor.nome,
@@ -191,7 +191,7 @@ ORDER BY
 |     BARSANO, Paulo Roberto              |    74    | 1996-06-09 |      4     |
 |         ÁVILA,  Geraldo                 |    2     | 1975-10-08 |      2     |
 
-### E5 - Apresente a query para listar o nome dos autores que publicaram livros através de editoras NÃO situadas na região sul do Brasil. Ordene o resultado pela coluna nome, em ordem crescente. Não podem haver nomes repetidos em seu retorno.
+### Query que lista o nome dos autores que publicaram livros através de editoras NÃO situadas na região sul do Brasil. Ordenar o resultado pela coluna nome, em ordem crescente. Não podem haver nomes repetidos em seu retorno.
 ```SQL
 SELECT
 	autor.nome
@@ -240,7 +240,7 @@ ORDER BY
 |    BARSANO, Paulo Roberto   |
 
 
-### E6 - Apresente a query para listar o autor com maior número de livros publicados. O resultado deve conter apenas as colunas codautor, nome, quantidade_publicacoes.
+### Query para listar o autor com maior número de livros publicados. O resultado deve conter apenas as colunas codautor, nome, quantidade_publicacoes.
 ```SQL
 SELECT
 	autor.codautor,
@@ -263,7 +263,7 @@ LIMIT 1
 
 
 
-### E7 - Apresente a query para listar o nome dos autores com nenhuma publicação. Apresentá-los em ordem crescente.
+### Query para listar o nome dos autores com nenhuma publicação. Apresentá-los em ordem crescente.
 ```SQL
 SELECT
 	autor.nome
