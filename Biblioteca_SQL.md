@@ -1,4 +1,4 @@
-# Consultas realizadas em uma base de dados "Biblioteca", utilizando SQL.
+# Consultas realizadas em uma banco de dados "Biblioteca", utilizando SQL.
 
 ### Query que para lista todos os livros publicados após 2014. Ordenar pela coluna cod, em ordem crescente, as linhas. Colunas esperadas no resultado final: cod, titulo, autor, editora, valor, publicacao, edicao, idioma.
 ```SQL
