@@ -1,4 +1,5 @@
-# Consultas SQL utilizando JOIN em um banco de dados contendo dados sobre livros, contendo as entidades: autor, editora e livro.
+# Consultas SQL utilizando JOIN
+### Consultas realizadas em um banco de dados contendo dados sobre livros, contendo as entidades: autor, editora e livro.
 
 ### Query que lista 10 livros mais caros
 ```SQL
