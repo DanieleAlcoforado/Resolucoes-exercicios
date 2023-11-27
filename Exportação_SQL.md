@@ -1,5 +1,6 @@
-# Exercícios de Exportação de Dados
-### Os 10 livros mais caros
+# Consultas SQL utilizando JOIN em um banco de dados contendo dados sobre livros, contendo as entidades: autor, editora e livro.
+
+### Query que lista 10 livros mais caros
 ```SQL
 SELECT
 	livro.cod AS CodLivro,
@@ -17,7 +18,7 @@ ORDER BY
 	livro.valor DESC
 LIMIT 10
 ```
-### As 5 editoras com mais livros
+### Query que lista as 5 editoras com mais livros
 ```SQL
 SELECT
 	livro.cod AS CodLivro,
