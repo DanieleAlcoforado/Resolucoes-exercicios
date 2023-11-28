@@ -1,7 +1,7 @@
 # queries-sql
 Repositório contendo alguns exemplos de consultas em bancos de dados utilizando SQL
 
-### As queries realizadas no banco de dados "Loja" trazem diferentes informações de vendas dos produtos de uma loja. Os dados obtidos podem ser valiosos para a tomada de decisões estratégicas e o entendimento mais profundo do desempenho do negócio.
+#### As queries realizadas no banco de dados "Loja" trazem diferentes informações de vendas dos produtos de uma loja. Os dados obtidos podem ser valiosos para a tomada de decisões estratégicas e o entendimento mais profundo do desempenho do negócio.
 **Vendedor com Maior Número de Vendas:**
    - Identificar o vendedor mais produtivo em termos de vendas concluídas pode ser útil para reconhecimento de desempenho, recompensas ou treinamento para outros vendedores.
 
