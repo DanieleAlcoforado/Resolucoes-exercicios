@@ -11,9 +11,6 @@ Repositório contendo alguns exemplos de consultas em bancos de dados utilizando
 **Produtos Menos Vendidos por Canal de Vendas:**
    - Identificar os produtos menos populares pode orientar decisões sobre promoções, descontinuação de produtos ou ajustes na estratégia de marketing.
 
-**Vendas Identificadas como Deletadas:**
-   - Listar as vendas marcadas como deletadas, permitindo uma revisão ou auditoria para entender por que foram excluídas.
-
 **Quantidade Média Vendida por Produto e Estado:**
    - Analisar a quantidade média vendida de cada produto agrupado por estado, proporcionando informações detalhadas sobre o desempenho de produtos específicos em diferentes regiões. Isso pode orientar estratégias de estoque e marketing regional.
 
